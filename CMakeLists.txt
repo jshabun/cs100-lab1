@@ -5,7 +5,6 @@ ADD_EXECUTABLE(area_calculator
 	src/rectangle.cpp
 )
 
-ADD_EXECUTABLE(bigger_area_calculator
-	src/new_main.cpp
-	src/rectangle.cpp
+ADD_EXECUTABLE(c-echo
+	main2.cpp
 )
