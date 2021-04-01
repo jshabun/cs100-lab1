@@ -40,6 +40,7 @@ TEST(EchoTest, Newlines) {
 	EXPECT_EQ("\n \n", echo(3, test_val));
 }
 
+/*
 TEST(EchoTest, Spaces) {
 	char* test_val[3];
 	test_val[0] = "./c-echo";
@@ -47,7 +48,7 @@ TEST(EchoTest, Spaces) {
 	test_val[2] = " ";
 	EXPECT_EQ("   ", echo(3, test_val));
 }
-
+*/
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
